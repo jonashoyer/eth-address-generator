@@ -1,0 +1,14 @@
+[package]
+name = "eth-address-generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+hex = "0.4.3"
+secp256k1 = "0.25.0"
+tiny-keccak = { version = "2.0.2", features = [ "keccak" ] }
+ethsign = "0.8.0"
+
+[profile.dev]
+opt-level = 3
