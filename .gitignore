@@ -1,1 +1,7 @@
 target
+.list
+generated*.txt
+my_file.txt
+
+private.pem
+pubkey.pem
